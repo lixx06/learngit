@@ -1,5 +1,23 @@
 
-test git
+#git learning notes.
 
-add a line here
+#1. create a repository:
+mkdir learngit
+cd learngit
+git init
 
+#2. add a file
+git add filename
+
+#3. commit a file
+git commit -m "wrote a test file"
+
+#4. get status
+git status
+
+#5. see the difference
+git diff filename
+
+#6. commit the modification
+git add filename
+git commit -m "modify content to git learning notes"
